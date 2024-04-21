@@ -1,12 +1,55 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Login</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Merriweather:ital,wght@0,300;0,400;0,700;0,900;1,300;1,400;1,700;1,900&display=swap" rel="stylesheet">
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+    <link rel="stylesheet" href="login.css">
 </head>
+
 <body>
-    hello
+    <section>
+        <div class="page">
+            <div class="image">
+                <img src="file:///Users/latifa/Downloads/My%20password-amico.svg" alt="Login Page Image">
+            </div>
+            <div class="login">
+                <div class="greenLine"></div>
+                <h1>Login</h1>
+                <p>Welcome! Please log in.</p>
+                <form id="login-form">
+                    <div class="input-container">
+                        <label for="username">User Name</label>
+                        <div class="input-group">
+                            <input class="input-box" type="text" id="username" name="username" placeholder="Enter your username">
+                            <i class='bx bxs-user' style='color:#3ac9b5'></i>
+                        </div>
+                    </div>
+                    <div class="input-container">
+                        <label for="password">Password</label>
+                        <div class="input-group">
+                            <input class="input-box" type="password" id="password" name="password" placeholder="Enter your password">
+                            <i class='bx bx-lock-alt' style='color:#3ac9b5'></i>
+                        </div>
+                    </div>
+                    <div class="remember-me">
+                        <input type="checkbox" id="remember-me" checked>
+                        <label for="remember-me">Remember Me</label>
+                        <a class="forgot" href="#" style="margin-left: auto;">Forgot password?</a>
+                    </div>
+                    <button type="submit">Login</button>
+                </form>
+            </div>
+        </div>
+        
+    </section>
 </body>
+
 </html>

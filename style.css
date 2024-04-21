@@ -1,7 +1,7 @@
 @import"./bases.css";
 
 
-/* Why Us section styling */
+
 html {
     font-family: "Merriweather", serif;
 }
@@ -97,8 +97,8 @@ nav a.focus {
 .grid-container {
     display: grid;
     grid-template-columns: 1fr 1fr; /* Two equal columns */
-    gap: 20px; /* Add spacing between columns */
-    align-items: center; /* Align items vertically in the center */
+    gap: 20px;
+    align-items: center;
     padding: 0rem 0rem 0rem 0rem;
     max-width: 1225px;
     margin: 0 auto;
@@ -109,26 +109,26 @@ span{
     color:#0098A2;
 }
 .text-content {
-    grid-column: 1; /* The text content will be in the first column */
+    grid-column: 1; 
 }
 
 .image-content {
-    grid-column: 2; /* The image content will be in the second column */
+    grid-column: 2; 
 }
 
 .image {
-    width: 100%; /* Make the image fill the container */
+    width: 100%; 
 }
 
 .Sen1 {
     font-size:3rem ;
     font-weight:2000 ;
     margin-top:-6rem;
-    margin-bottom: 40px; /* Add margin below the first sentence */
+    margin-bottom: 40px;
 }
 
 .Sen2 {
-    margin-top: 30px; /* Add margin above the second sentence */
+    margin-top: 30px; 
     font-size:1rem ;
     font-weight:500 ;
 }
@@ -149,7 +149,7 @@ span{
 /* Why Us section styling */
 .Why {
     display: flex;
-    flex-direction: column; /* Arrange elements vertically */
+    flex-direction: column; 
     align-items: center; 
     background-color: #f4f5f5;
     height: 55rem;
@@ -159,11 +159,11 @@ span{
 
 /* Styling for the heading */
 .Why h1 {
-    font-size: 2rem; /* Adjust the font size */
+    font-size: 2rem; 
     margin-top: 9rem;
-    margin-bottom: 3rem; /* Margin at the bottom */
-    text-align: center; /* Center the text */
-    color: #000000; /* Adjust the color if needed */
+    margin-bottom: 3rem; 
+    text-align: center; 
+    color: #000000; 
 }
 
 .Why h1 span {
@@ -184,55 +184,57 @@ span{
 
 
 .Why li {
-    width: 200px; /* Width of each point */
-    padding: 20px; /* Padding inside each point */
-    background-color: white; /* Background color */
-    border-radius: 10px; /* Rounded corners */
-    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); /* Shadow for depth */
-    text-align: center; /* Center the text */
-    margin: 50; /* Reset margin to avoid interference */
+    width: 200px; 
+    padding: 20px;
+    background-color: white; 
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); 
+    text-align: center; 
+    margin: 50; 
 }
 
 
 /* Styling for the title */
 .Why li h2 {
-    font-size: 1.2rem; /* Adjust the font size */
-    margin-bottom: 10px; /* Margin at the bottom */
+    font-size: 1.2rem;
+    margin-bottom: 10px; 
 }
 
 /* Styling for the paragraph */
 .Why li div {
-    font-size: 0.9rem; /* Adjust the font size */
-    margin-bottom: 10px; /* Margin at the bottom */
+    font-size: 0.9rem;
+    margin-bottom: 10px; 
 }
+
+
 /* Styling for the About section */
-/* Styling for the About Us section */
+
 .About {
-    width: 100%; /* Use full viewport width for the section */
-    height: 25rem; /* Set the height of the section */
-    padding: 20px; /* Add padding around the section */
-    text-align: center; /* Center-aligns the text within the section */
+    width: 100%; 
+    height: 25rem; 
+    padding: 20px; 
+    text-align: center; 
     background: linear-gradient(90deg, rgba(7,105,128,1) 8%, rgba(0,152,162,1) 36%, rgba(58,201,181,1) 85%, rgba(135,249,218,1) 100%);
-    display: flex; /* Use flexbox layout */
-    flex-direction: column; /* Align content vertically */
-    align-items: center; /* Center-align content */
-    justify-content: center; /* Center-align content */
+    display: flex; 
+    flex-direction: column;
+    align-items: center;
+    justify-content: center; 
 }
 
 .About h1 {
-    font-size: 2.5rem; /* Adjusted font size for the title */
-    color: #fff; /* White color for contrast */
-    margin-bottom: 15px; /* Add some space below the title */
+    font-size: 2.5rem;
+    color: #fff;
+    margin-bottom: 15px; 
 }
 
 .About p {
     font-size: 1rem; 
     color: #fff; 
     line-height: 1.5;
-    margin: 0; /* Remove margins */
+    margin: 0; 
     margin-top: 3rem;
-    max-width: 60%; /* Limit paragraph width for readability */
-    text-align: center; /* Center-align the paragraph text */
+    max-width: 60%; 
+    text-align: center; 
 }
 
 
